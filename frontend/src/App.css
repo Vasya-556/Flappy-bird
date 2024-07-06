@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    -webkit-user-select: none; /* For Safari */
+    -moz-user-select: none;    /* For Firefox */
+    -ms-user-select: none;     /* For Internet Explorer/Edge */
+    user-select: none;         /* Standard syntax */
+}
+
+.Game {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px; 
+    padding: 20px;
+}
+
+.Game canvas {
+    border: 4px solid rgb(80, 58, 16);   
+    border-radius: 4px;
+    margin-right: 50px;
+}
+
+.Game button {
+    background-color: #b29815;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-right: 50px;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 5px #666;
+    cursor: pointer;
+    height: 50px;
+}
+
+.Game button:hover {
+    background-color: #b29810;
+}
+
+.Game button:active {
+    background-color: #867314;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.ScoreBoard {
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #524104;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.p1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #333;
+    margin: 0;
+}
+
+.p2 {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #524104;
+    margin: 0;
+}
