@@ -16,6 +16,7 @@
 ## Description
 
 This is a webapp written in reactjs. You can play flappy bird here for free.
+https://vasya-556.github.io/Flappy-bird/
 ![](image.png)
 
 ## Usage
