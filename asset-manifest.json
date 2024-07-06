@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Flappy-bird/static/css/main.75fe315f.css",
+    "main.js": "/Flappy-bird/static/js/main.324fc3a9.js",
+    "static/js/453.8ab44547.chunk.js": "/Flappy-bird/static/js/453.8ab44547.chunk.js",
+    "static/media/background.png": "/Flappy-bird/static/media/background.8e02ade2345df426940a.png",
+    "static/media/bird3.png": "/Flappy-bird/static/media/bird3.d774ed4c433fa5c3f2cb.png",
+    "static/media/pipe1.png": "/Flappy-bird/static/media/pipe1.2906ee9d0e710633dc4b.png",
+    "index.html": "/Flappy-bird/index.html",
+    "main.75fe315f.css.map": "/Flappy-bird/static/css/main.75fe315f.css.map",
+    "main.324fc3a9.js.map": "/Flappy-bird/static/js/main.324fc3a9.js.map",
+    "453.8ab44547.chunk.js.map": "/Flappy-bird/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75fe315f.css",
+    "static/js/main.324fc3a9.js"
+  ]
+}
